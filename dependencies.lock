@@ -513,6 +513,6 @@ direct_dependencies:
 - espressif/arduino-esp32
 - espressif/knob
 - h2zero/esp-nimble-cpp
-manifest_hash: d1929b0cf8a94fb73d999406232e434c141c86a8bcafd25ca5de9707f37dc1b0
+manifest_hash: bbec2c455868aaa389c0dea918f844396ae11d96d6db1028271bb18e23858469
 target: esp32
 version: 2.0.0

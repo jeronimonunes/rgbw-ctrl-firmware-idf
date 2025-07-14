@@ -221,10 +221,10 @@ namespace WebSocket
                 ESP_LOGD(LOG_TAG, "WebSocket client disconnected: %s", client->remoteIP().toString().c_str());
                 break;
             case WS_EVT_PONG:
-                ESP_LOGD(LOG_TAG, "WebSocket pong received from client: %s", client->remoteIP().toString().c_str());
+                ESP_LOGD(LOG_TAG, "WebSocket pong received from client");
                 break;
             case WS_EVT_ERROR:
-                ESP_LOGE(LOG_TAG, "WebSocket error: %s", client->remoteIP().toString().c_str());
+                ESP_LOGE(LOG_TAG, "WebSocket error");
                 break;
             case WS_EVT_DATA:
                 this->handleWebSocketMessage(client, arg, data, len);
