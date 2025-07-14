@@ -2,6 +2,6 @@ dependencies:
   espressif/arduino-esp32: ^3.2.1
   esp32async/asynctcp: ^3.4.5
   bblanchon/arduinojson: ^7.4.2
-  esp32async/espasyncwebserver: ^3.7.9
+  esp32async/espasyncwebserver: ^3.7.10
   h2zero/esp-nimble-cpp: ^2.3.1
   espressif/knob: ^1.0.0

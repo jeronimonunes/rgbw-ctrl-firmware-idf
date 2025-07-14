@@ -24,7 +24,7 @@ dependencies:
       type: service
     version: 3.4.5
   esp32async/espasyncwebserver:
-    component_hash: aa15dc7d3dab504aae3e3ffba6e8b97fbccbf53ffc22093a7998c64c2f468567
+    component_hash: c503fbebd1cb620f2ecd9a35e4d598f946f24ef18a22a533b0661932200efb72
     dependencies:
     - name: bblanchon/arduinojson
       registry_url: https://components.espressif.com
@@ -33,7 +33,7 @@ dependencies:
     - name: esp32async/asynctcp
       registry_url: https://components.espressif.com
       require: private
-      version: ^3.4.4
+      version: ^3.4.5
     - name: espressif/arduino-esp32
       registry_url: https://components.espressif.com
       require: private
@@ -41,7 +41,7 @@ dependencies:
     source:
       registry_url: https://components.espressif.com/
       type: service
-    version: 3.7.9
+    version: 3.7.10
   espressif/arduino-esp32:
     component_hash: 72696a626bff480a0e742e5e42c4480a54fa672c6b07d541359f9e14cf4b2fe8
     dependencies:
